@@ -26,7 +26,7 @@
         <div class="container container-header">
              
         <nav class="sit">
-            <a class="web " href="./index.html" target="_blank">Web<span class="spa">Studio</span></a>
+            <a class="web web-header" href="./index.html" target="_blank">Web<span class="spa">Studio</span></a>
             <ul class="menu">
                 <li><a class="cla cla-nav-li" href="./index.html" target="_blank">Studio</a></li>
                 <li><a class="cla" href="" target="_blank">Portfolio</a></li>
@@ -41,27 +41,94 @@
                 <li><a class="com" href="tel:+110001111111" target="_blank">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
-             
+
+        <button class="button-header" type="button">
+            <svg class="button-header-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+            </svg>
+          </button>  
        </div>
+
+       <div class="mobile-div">
+        <div class="container mobile-div-container">
+          <button class="mobile-div-button" data-menu-close>
+            <svg class="mobile-div-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-menu-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-div-nav">
+            <ul class="menu-div-nav-ul">
+              <li>
+                <a class="mobile-link cla-nav-li" href="./index.html">Studio</a>
+              </li>
+              <li><a class="mobile-link" href="">Portfolio</a></li>
+              <li><a class="mobile-link" href="">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="menu-list">
+            <ul class="menu-address">
+              <li class="address-info">
+                <a class="address-link cla-nav-li" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="address-info">
+                <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+
+          <div>
+            <ul class="mobile-div-menu">
+              <li class="mobile-div-menu-li">
+                <a class="mobile-div-menu-a" href="">
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram-2" />
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-div-menu-li">
+                <a class="mobile-div-menu-a" href="">
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter-1" />
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-div-menu-li">
+                <a class="mobile-div-menu-a" href="">
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook-1" />
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-div-menu-li">
+                <a class="mobile-div-menu-a" href="">
+                  <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin-1" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
     </header>
 
     <main>
 
+         <!--Section 1-->
     
         <section class="effective">
             <div class="container">
                   <h1 class="sol">Effective Solutions for Your Business</h1>
                   <button type="button" class="but">Order Service</button>
             </div>
-        </section>
-    
+        </section>   
 
-
+        <!--Section 2-->
     
         <section class="benefits">
 
-        <div class="container">    
+        <div class="container main-container">    
 
           <h2  class="visually-hidden">Benefits</h2>
             
@@ -115,16 +182,16 @@
 
         </section>
   
-
+        <!--Section 3-->
 
         <section class="images">
 
-        <div class="container">
+        <div class="container team-container">
 
             <h2 class="our-team">Our Team</h2>
             <ul class="people-images-first">
                 <li class="first-images">
-                    <img src="./images/img-3.jpg" alt="Mark Guerrero Product Designer" width="264" class="img">
+                    <img src="./images/img-3-2x.jpg" alt="Mark Guerrero Product Designer" width="264" class="img">
                     <div class="people-post">
                        <h3 class="people">Mark Guerrero</h3>
                        <p class="post">Product Designer</p>
@@ -164,7 +231,7 @@
                     </div>
                 </li>
                 <li class="first-images">
-                    <img src="./images/img-2.jpg" alt="Mark Guerrero Product Designer" width="264" class="img">
+                    <img src="./images/img-2-2x.jpg" alt="Mark Guerrero Product Designer" width="264" class="img">
                     <div class="people-post">
                        <h3 class="people">Tom Ford</h3>
                        <p class="post">Frontend Developer</p>
@@ -202,7 +269,7 @@
                     </div>
                 </li>
                 <li class="first-images">
-                    <img src="./images/img-1.jpg" alt="Mark Guerrero Product Designer" width="264" class="img">
+                    <img src="./images/img-1-2x.jpg" alt="Mark Guerrero Product Designer" width="264" class="img">
                     <div class="people-post">
                        <h3 class="people">Camila Garcia</h3>
                        <p class="post">Marketing</p>
@@ -240,7 +307,7 @@
                     </div>
                 </li>
                 <li class="first-images">
-                    <img src="./images/img.jpg" alt="Mark Guerrero Product Designer" width="264" class="img">
+                    <img src="./images/img-2x.jpg" alt="Mark Guerrero Product Designer" width="264" class="img">
                     <div class="people-post">
                        <h3 class="people">Daniel Wilson</h3>
                        <p class="post">UI Designer</p>
@@ -283,17 +350,18 @@
 
         </section>
 
+        <!--Section 4-->
 
         <section class="portfolio">
 
-        <div class="container">
+        <div class="container portfolio-container">
 
             <h2 class="our-portfolio">Our Portfolio</h2>
             <ul class="portfolio-forse-section">
                 <li class="portfolio-section-first">
 
                     <div class="images-container">
-                       <img src="./images/images-1.jpg" alt="Banking App" width="360" class="img">
+                       <img src="./images/imge-1-2x.jpg" alt="Banking App" width="360" class="img">
                        <p class="paragraf-images">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
 
@@ -305,7 +373,7 @@
                 <li class="portfolio-section-first">
 
                     <div class="images-container">
-                       <img src="./images/images-2.jpg" alt="Banking App" width="360" class="img">
+                       <img src="./images/imge-2-2x.jpg" alt="Banking App" width="360" class="img">
                        <p class="paragraf-images">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
 
@@ -317,7 +385,7 @@
                 <li class="portfolio-section-first">
 
                     <div class="images-container">
-                       <img src="./images/images-3.jpg" alt="Banking App" width="360" class="img">
+                       <img src="./images/imge-3-2x.jpg" alt="Banking App" width="360" class="img">
                        <p class="paragraf-images">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
 
@@ -329,7 +397,7 @@
                 <li class="portfolio-section-first">
 
                     <div class="images-container">
-                       <img src="./images/images-4.jpg" alt="Banking App" width="360" class="img">
+                       <img src="./images/imge-4-2x.jpg" alt="Banking App" width="360" class="img">
                        <p class="paragraf-images">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
 
@@ -341,7 +409,7 @@
                 <li class="portfolio-section-first">
 
                     <div class="images-container">
-                       <img src="./images/images-5.jpg" alt="Banking App" width="360" class="img">
+                       <img src="./images/imge-5-2x.jpg" alt="Banking App" width="360" class="img">
                        <p class="paragraf-images">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
 
@@ -353,7 +421,7 @@
                 <li class="portfolio-section-first">
 
                     <div class="images-container">
-                       <img src="./images/images-6.jpg" alt="Banking App" width="360" class="img">
+                       <img src="./images/imge-6-2x.jpg" alt="Banking App" width="360" class="img">
                        <p class="paragraf-images">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
 
@@ -372,19 +440,20 @@
 
     </main>
 
+       <!--Footer-->
 
     <footer class="footer">
 
-    <div class="div-container container">
+    <div class="div-container container footer-container">
         
         <div class="container-div">
 
-        <a class="web-footter display" href="./index.html" target="_blank">Web<span class="span">Studio</span></a>
+        <a class="web-footer display" href="./index.html" target="_blank">Web<span class="span">Studio</span></a>
         <p class="paragraf-parag">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     
         </div>
 
-        <div>
+        <div class="social-media-footer">
            <p class="footer-paragraph">Social media</p>
            <ul class="social-footer">
                 <li class="social-footer-li">
@@ -442,6 +511,8 @@
     </div>    
     
     </footer>
+
+       <!--After-Footer-->
 
      <div class="after-footer-div">
 
